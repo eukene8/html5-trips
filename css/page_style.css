@@ -1,3 +1,70 @@
-html, body {
-        font-size:20px;
+body, html{
+    font-family: sans-serif;
+    font-size: 15px;
 }
+section{
+    margin-top: 50px;
+}
+article{
+    margin-left:40px;
+}
+
+nav *{
+    /*background: #ccf2ff*/; 
+    color:coral;
+    font-size:1.5rem;
+}
+header{
+    background:  #f2f2f2
+    
+}
+h1{
+    text-align: center;
+    font-family: "forte","elephant","algerian";
+    font-size: 5em;
+    color:crimson;  
+    }
+h2{
+    text-align: center;
+    font-weight:bold;
+    font-size:2.5rem;
+    }
+h3{
+    font-size:1.7rem;
+    font-weight:bold;
+    text-decoration: underline;
+    }
+
+#afr{    
+    font-family: "papyrus","gigi","colonna mt";
+    background:#ffdd99;
+    }
+#asi{
+    font-family: "pristina","bradley hand itc","harrington";
+    background: #ffffb3;
+    }
+#ame{
+    font-family: "jokerman","ravie","curlz MT";
+    background: #ccffcc;
+    }
+#eur{
+    font-family: "Vivaldi","Edwardian Script ITC","Kunstler Script","Palace Script MT";
+    background: #cceeff;
+    }
+
+#afr h2{
+    color:darkred; 
+}
+#asi h2{
+    color:darkgoldenrod; 
+}
+#ame h2{
+    color:darkgreen; 
+}
+#eur h2{
+    color:darkblue;
+}
+
+img{
+    width:300px;
+    }
